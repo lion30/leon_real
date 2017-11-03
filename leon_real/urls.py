@@ -14,6 +14,7 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+
 from mes import urls as mes_url
 from sales import urls as sales_url
 
